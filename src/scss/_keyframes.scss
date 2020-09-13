@@ -1,0 +1,80 @@
+@keyframes shake {
+    from {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(0.7);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(0.7);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes slide {
+    from {
+        height: 330px;
+        margin-bottom: 80px;
+    }
+
+    50% {
+        height: 0;
+        margin-bottom: 0;
+    }
+
+    to {
+        height: 330px;
+        margin-bottom: 80px;
+    }
+}
+
+@keyframes scale-right {
+    from {
+        transform: translateX(0) scale(1);
+    }
+
+    50% {
+        transform: translateX(-10%) scale(1.2);
+    }
+
+    to {
+        transform: translateX(0) scale(1);
+    }
+}
+
+@keyframes scale-left {
+    from {
+        transform: translateX(0) scale(1);
+    }
+
+    50% {
+        transform: translateX(10%) scale(1.2);
+    }
+
+    to {
+        transform: translateX(0) scale(1);
+    }
+}
+
+@keyframes scale-top {
+    from {
+        transform: translateX(0) scale(1);
+    }
+
+    50% {
+        transform: translateY(10%) scale(1.2);
+    }
+
+    to {
+        transform: translateX(0) scale(1);
+    }
+}

@@ -1,0 +1,857 @@
+@media (max-width: 1200px) {
+
+    // header
+    .header__link {
+        padding: 25px 15px;
+    }
+
+    //end header
+    // personal
+
+    .personal {
+        &__items {
+            flex-wrap: wrap;
+        }
+
+        &__wrapper-img {
+            flex-basis: 50%;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+
+    //end personal
+    //start prices
+    .prices__card {
+        flex-basis: calc(50% - 30px);
+        margin-bottom: 30px;
+    }
+
+    //end prices
+    //products
+    .products {
+        &__card-wrapper {
+            margin-left: -10px;
+        }
+
+        &__card {
+            flex-basis: calc(25% - 10px);
+            margin-bottom: 10px;
+            margin-left: 10px;
+        }
+    }
+
+    // products
+    //partners
+    .partners {
+        &__content {
+            flex-wrap: wrap;
+        }
+
+        &__wrapper-img {
+            flex-basis: calc(50% - 30px);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+
+    //end partners
+    // projects
+    .projects__title {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    //End projects
+    // maps
+    .maps {
+        padding: 0;
+
+        &__location {
+            height: 400px;
+        }
+    }
+
+    //end maps
+}
+
+@media (max-width: 992px) {
+
+    // header
+    .header {
+        height: 60px;
+        padding: 20px 0;
+        background-color: rgba(19, 19, 22, 0.9);
+
+        &__link,
+        &__btn-search {
+            display: block;
+            width: 100%;
+            padding: 12px 100px;
+            background-color: rgba(19, 19, 22, 0.9);
+        }
+
+        &__btn-cart {
+            display: none;
+        }
+
+        &__btn {
+            display: block;
+        }
+
+        &__list {
+            position: absolute;
+            top: 60px;
+            right: 0;
+            display: none;
+        }
+
+        &__list-item {
+            display: block;
+            margin-left: 0;
+        }
+    }
+
+    //End header
+
+    //services
+
+    .services {
+        padding: 40px 0;
+
+        &__items {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__item {
+            max-width: 350px;
+            padding-top: 70px;
+            margin-bottom: 30px;
+        }
+    }
+
+    // End services
+    //  info
+
+    .info {
+        padding: 30px 0;
+
+        &__inner {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__content {
+            order: -1;
+        }
+    }
+
+    // End info
+
+    // Start projects
+    .projects {
+        padding: 40px 0;
+
+        &__wrapper-btn {
+            margin-bottom: 40px;
+        }
+
+        &__items {
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 100px;
+        }
+
+        &__img {
+            height: 100px;
+            object-fit: cover;
+        }
+
+        &__popup {
+            display: none;
+        }
+
+        &__top {
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        &__btn-close {
+            display: none;
+        }
+    }
+
+    // End projects
+    // start desc
+
+    .desc {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &__link {
+            display: block;
+            max-width: 200px;
+            margin: 20px auto 0;
+            text-align: center;
+        }
+    }
+
+    // End desc
+    //  benefits
+    .benefits {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+
+        &__tabs {
+            width: 100%;
+            max-width: none;
+            margin-bottom: 40px;
+        }
+
+        &__tab {
+            display: block;
+            width: 100%;
+            padding: 18px 15px;
+            margin: 0 auto;
+            border-radius: 5px;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        &__img {
+            padding: 30px;
+        }
+
+        &__text {
+            margin-right: 10px;
+        }
+    }
+
+    // End benefits
+    // Start news
+    .news {
+        padding: 40px 0;
+
+        &__time {
+            max-width: 150px;
+        }
+
+        &__day {
+            font-size: 60px;
+        }
+
+        &__text {
+            font-size: 20px;
+        }
+    }
+
+    // End news
+    // start personal
+
+    .personal {
+        padding: 30px 0 0;
+
+        &__title {
+            font-size: 25px;
+        }
+    }
+
+    // End personal
+    //  prices
+    .prices {
+        padding-bottom: 20px;
+    }
+
+    // End prices
+
+    // statisctics
+    .statistics__count {
+        font-size: 90px;
+    }
+
+    //Endnd statisctics
+
+    //products
+    .products {
+        padding-top: 40px;
+
+        &__img {
+            max-width: 450px;
+        }
+
+        &__card {
+            flex-basis: calc(50% - 10px);
+        }
+    }
+
+    //end products
+    // contact
+    .contact__item {
+        min-height: 200px;
+    }
+
+    //end contact
+}
+
+@media (max-width: 768px) {
+
+    // header
+    .slider__title {
+        font-size: 50px;
+    }
+
+    //end header
+
+    // title
+    .title {
+        padding-bottom: 40px;
+
+        &__feature {
+            font-size: 24px;
+        }
+
+        &__text {
+            font-size: 14px;
+        }
+    }
+
+    //end title
+
+    // start desc
+
+    .desc {
+        &__img-wrapper {
+            max-width: none;
+            height: 230px;
+        }
+
+        &__content {
+            max-width: none;
+            padding: 20px 0 0;
+            margin-left: 0;
+        }
+    }
+
+    // End desc
+
+    //  benefits
+    .benefits {
+        &__tab-title {
+            max-width: 230px;
+            font-size: 18px;
+
+            &::before {
+                font-size: 30px;
+            }
+        }
+
+        &__desc {
+            font-size: 14px;
+        }
+
+        &__title {
+            font-size: 20px;
+        }
+
+        &__description {
+            font-size: 16px;
+        }
+    }
+
+    // End benefits
+
+    // Start news
+    .news {
+        text-align: center;
+
+        &__time {
+            max-width: 130px;
+        }
+
+        &__data-wrapper {
+            margin-left: auto;
+            text-align: right;
+        }
+
+        &__day {
+            font-size: 50px;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        &__comments {
+            justify-content: space-between;
+        }
+    }
+
+    // End news
+
+    // prices
+    .prices__num {
+        font-size: 35px;
+    }
+
+    //end prices
+
+    // statisctics
+    .statistics {
+        &__title {
+            padding-top: 50px;
+
+            &::before {
+                font-size: 35px;
+            }
+        }
+
+        &__count {
+            font-size: 65px;
+        }
+    }
+
+    //Endnd statisctics
+
+    // products
+    .products {
+        &__item {
+            flex-direction: column;
+            margin-bottom: 40px;
+        }
+
+        &__img {
+            max-width: 768px;
+            height: 300px;
+            margin-bottom: 30px;
+            margin-left: 30px;
+        }
+    }
+
+    //Endnd products
+
+    // maps
+    .maps__location {
+        height: 300px;
+    }
+
+    //end maps
+    //feedback
+
+    .feedback {
+        &__title {
+            font-size: 25px;
+        }
+
+        &__input {
+            flex-basis: calc(50% - 30px);
+
+            &--third {
+                flex-basis: calc(100% - 30px);
+            }
+        }
+    }
+
+    //end feedback
+}
+
+@media (max-width: 576px) {
+
+    // header
+    .header {
+        &__list {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__link,
+        &__btn-search {
+            padding: 12px 0;
+        }
+    }
+
+    //end header
+    //start slider
+    .slider__title {
+        font-size: 40px;
+    }
+
+    //end slider
+
+    //  info
+
+    .info {
+        &__content {
+            margin-left: 0;
+        }
+
+        &__menu {
+            padding: 30px;
+        }
+
+        &__text-wrapper {
+            padding-left: 0;
+
+            &::before {
+                top: -4px;
+                left: 98px;
+                font-size: 25px;
+            }
+        }
+
+        &__media {
+            height: 300px;
+        }
+
+        &__play::before {
+            top: -15px;
+            font-size: 50px;
+        }
+
+        &__subtitle {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        &__media-text {
+            display: none;
+        }
+
+        &__wrapper .fancybox-button {
+            display: none;
+        }
+    }
+
+    // End info
+    // Start projects
+    .projects {
+        &__wrapper-btn {
+            margin-bottom: 20px;
+        }
+
+        &__btn {
+            margin-bottom: 10px;
+        }
+    }
+
+    // End projects
+
+    // start desc
+
+    .desc {
+        &__title {
+            font-size: 22px;
+        }
+
+        &__text {
+            font-size: 14px;
+        }
+
+        &__info {
+            font-size: 14px;
+        }
+    }
+
+    // End desc
+    // Start link
+
+    .link,
+    .feedback__link {
+        max-width: 170px;
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    // End link
+    // start about
+    .about {
+        &__inner {
+            grid-template-columns: 1fr;
+            justify-items: center;
+            text-align: center;
+        }
+
+        &__card {
+            padding: 75px 0 10px;
+            margin: 0 0 20px;
+            border-top: 1px solid #000;
+
+            &::before {
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    // End about
+
+    //  benefits
+    .benefits {
+        &__inner {
+            flex-direction: column;
+        }
+
+        &__text {
+            font-size: 14px;
+        }
+
+        &__title {
+            font-size: 18px;
+        }
+
+        &__description {
+            font-size: 14px;
+        }
+    }
+
+    // End benefits
+
+    // personal
+    .personal__wrapper-img {
+        flex-basis: 100%;
+    }
+
+    //end personal
+
+    // Start news
+    .news {
+        &__inner {
+            flex-direction: column;
+            align-items: start;
+        }
+
+        &__time {
+            max-width: 200px;
+            padding-bottom: 10px;
+        }
+
+        &__day {
+            font-size: 35px;
+        }
+
+        &__time-text {
+            display: inline-block;
+            width: auto;
+        }
+
+        &__content {
+            padding: 0;
+            padding-top: 10px;
+            margin: 0;
+            text-align: left;
+            border-top: 2px solid #fff;
+            border-left: none;
+        }
+
+        &__data-wrapper {
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        &__comments {
+            justify-content: start;
+        }
+    }
+
+    // End news
+
+    //start prices
+    .prices {
+        &__title {
+            font-size: 22px;
+        }
+
+        &__card {
+            flex-basis: calc(1000% - 30px);
+        }
+    }
+
+    //end prices
+    // statisctics
+    .statistics {
+        padding-bottom: 30px;
+
+        &__inner {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__card {
+            margin-bottom: 20px;
+
+            & + & {
+                margin-left: 0;
+            }
+        }
+    }
+
+    //Endnd statisctics
+    // products
+    .products {
+        &__desc {
+            margin-left: 0;
+        }
+
+        &__img {
+            height: 250px;
+            margin-left: 0;
+        }
+
+        &__list {
+            margin-bottom: 15px;
+        }
+
+        &__list-item {
+            font-size: 14px;
+
+            &:first-child {
+                margin-bottom: 10px;
+                margin-left: -20px;
+            }
+        }
+
+        &__text {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        &__title {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        &__price {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        &__link {
+            display: block;
+            max-width: 170px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        &__card {
+            flex-basis: calc(100% - 10px);
+        }
+    }
+
+    //Endnd products
+    //partners
+    .partners {
+        padding-bottom: 0;
+
+        &__wrapper-img {
+            flex-basis: calc(100% - 30px);
+        }
+    }
+
+    //end partners
+
+    // contact
+    .contact {
+        padding-bottom: 0;
+
+        &__content {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            flex-basis: 100%;
+            min-height: 180px;
+
+            & + & {
+                margin-left: 0;
+            }
+        }
+    }
+
+    //end contact
+
+    // maps
+    .maps__location {
+        height: 250px;
+    }
+
+    //end maps
+
+    //feedback
+
+    .feedback {
+        &__title-feature {
+            margin-bottom: 20px;
+        }
+
+        &__input {
+            flex-basis: calc(100% - 30px);
+            margin-bottom: 10px;
+        }
+
+        &__textarea {
+            margin-bottom: 30px;
+        }
+
+        &__link {
+            width: 100%;
+            max-width: 150px;
+        }
+    }
+
+    //end feedback
+}
+
+@media (max-height: 570px) {
+    .header {
+        &__list-item {
+            display: inline-block;
+            width: 48%;
+        }
+
+        &__list {
+            background-color: rgba(19, 19, 22, 0.9);
+        }
+
+        &__link {
+            text-align: center;
+            background-color: transparent;
+        }
+
+        &__btn-search {
+            background-color: transparent;
+        }
+    }
+
+    @media (max-height: 380px) {
+        .slider__pagination {
+            display: none;
+        }
+    }
+    // slider
+
+    .slider {
+        &__inner {
+            padding-top: 75px;
+        }
+
+        &__slide {
+            height: 125vh;
+        }
+    }
+
+    //End slider
+}
+
+@media (min-width: 992px) {
+    .header__list {
+        display: block !important;
+    }
+}

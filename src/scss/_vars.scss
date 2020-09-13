@@ -1,0 +1,72 @@
+$red: #ff1d1d;
+$gray:#707070;
+
+@mixin os300 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@mixin os400 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin os600 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+@mixin sc400 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin sc700 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@mixin sn400 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin sn700 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@mixin img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin click-area {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    min-width: 44px;
+    height: 44px;
+    content: '';
+    transform: translateY(-50%);
+}
+
+@mixin overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-image: linear-gradient(to top, rgba(19, 19, 22, 0.3), rgba(19, 19, 22, 0.3));
+}
