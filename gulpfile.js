@@ -89,7 +89,7 @@ gulp.task('script', function () {
     'node_modules/swiper/swiper-bundle.js',
     'node_modules/focus-visible/dist/focus-visible.js',
     'node_modules/mixitup/dist/mixitup.js',
-    'node_modules/jquery-parallax.js/parallax.js'
+    'node_modules/simple-parallax-js/dist/simpleParallax.js'
   ])
     .pipe(size())
     .pipe(babel())
@@ -168,8 +168,8 @@ gulp.task('images', function () {
         [
           recompress({
             loops: 4, //количество прогонок изображения
-            min: 50, //минимальное качество в процентах
-            max: 85, //максимальное качество в процентах
+            min: 70, //минимальное качество в процентах
+            max: 75, //максимальное качество в процентах
             quality: 'high',
             use: [pngquant()],
           }),

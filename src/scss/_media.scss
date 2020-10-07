@@ -73,6 +73,18 @@
     }
 
     //end maps
+    // statistics
+
+    .statistics {
+        &__wrapper-img {
+            top: 0;
+        }
+
+        &__img {
+            height: 100%;
+        }
+    }
+    //end statistics
 }
 
 @media (max-width: 992px) {
@@ -101,19 +113,38 @@
 
         &__list {
             position: absolute;
-            top: 60px;
-            right: 0;
+            top: 40px;
+            left: -15px;
             display: none;
+            width: 100vw;
+            text-align: center;
         }
 
         &__list-item {
             display: block;
             margin-left: 0;
         }
+
+        &__search {
+            top: 0;
+        }
+
+        &__input {
+            height: 50px;
+        }
+
+        &__btn-close {
+            top: 24px;
+        }
     }
 
     //End header
+    // slider
+    .slider__background {
+        animation: none;
+    }
 
+    //end slider
     //services
 
     .services {
@@ -145,6 +176,10 @@
 
         &__content {
             order: -1;
+        }
+
+        &__bg {
+            height: 100%;
         }
     }
 
@@ -214,7 +249,9 @@
         }
 
         &__tab {
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
             width: 100%;
             padding: 18px 15px;
             margin: 0 auto;
@@ -272,8 +309,19 @@
     // End prices
 
     // statisctics
-    .statistics__count {
-        font-size: 90px;
+    .statistics {
+        &__count {
+            font-size: 90px;
+        }
+
+        &__wrapper-img {
+            width: 100%;
+            max-width: 992px;
+        }
+
+        &__img {
+            height: 100%;
+        }
     }
 
     //Endnd statisctics
@@ -352,7 +400,12 @@
             }
         }
 
+        &__tab {
+            display: block;
+        }
+
         &__desc {
+            display: block;
             font-size: 14px;
         }
 
@@ -466,11 +519,6 @@
 
     // header
     .header {
-        &__list {
-            width: 100%;
-            text-align: center;
-        }
-
         &__link,
         &__btn-search {
             padding: 12px 0;
@@ -687,7 +735,7 @@
         &__card {
             margin-bottom: 20px;
 
-            & + & {
+            &+& {
                 margin-left: 0;
             }
         }
@@ -769,7 +817,7 @@
             flex-basis: 100%;
             min-height: 180px;
 
-            & + & {
+            &+& {
                 margin-left: 0;
             }
         }
@@ -835,6 +883,7 @@
             display: none;
         }
     }
+
     // slider
 
     .slider {
